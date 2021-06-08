@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+html,body{
+    height: 100%;
+}
+/*help*/
+.clear{
+    clear: both;
+}
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+/*end-help*/
+header{
+    width: 100%;
+    padding: 10px 0;
+    background-color: #1976d2;
+}
+.logo{
+    float: left;
+}
+.logo h3{
+    color: white;
+    font-size: 30px;
+}
+.menu-desktop{
+    float: right;
+}
+.menu-desktop ul{
+    list-style-type: none;
+}
+.menu-desktop li{
+    display: inline-block;
+    padding: 0 25px;
+    position: relative;
+    top: 8px;
+}
+.menu-desktop li a{
+    color: #ccc;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+.menu-desktop li a:hover{
+    color: white;
+}
+
+/*menu-mobile*/
+
+.menu-mobile{
+    display: none;
+    float: right;
+}
+.menu-mobile i{
+    color: white;
+    cursor: pointer;
+    font-size: 23px;
+    position: relative;
+    top: 10px;
+}
+.menu-mobile ul{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 60px;
+    text-align: center;
+    background-color: #1976d2;
+    display: none;
+}
+.menu-mobile li{
+    padding: 10px 0;
+}
+.menu-mobile li a{
+    color: #ccc;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+.menu-mobile li a:hover{
+    color: white;
+}
+
+/*end-mobile*/
+
+@media screen and (max-width:768px){
+    .menu-desktop{
+        display: none;
+    }
+    .menu-mobile{
+        display: block;
+    }
+}

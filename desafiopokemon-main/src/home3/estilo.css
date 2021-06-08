@@ -1,0 +1,89 @@
+html.body{
+    height: 100%;
+}
+
+.clear{
+    clear: both;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+header {
+    width: 100%;
+    position: absolute;
+    height: 50px;
+    left: 0px;
+    top: 0px;
+    background-color: #FFCB05;
+}
+
+.logo {
+    position: absolute;
+    width: 75px;
+    height: 30px;
+    left: 138px;
+    top: 8px;
+}
+
+.menu-desktop{
+    display: flex;
+    justify-content: center; 
+    font-family: "Poppins"; 
+    margin-top: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+}
+
+.menu-desktop ul {
+    list-style-type: none;
+    top: auto;
+    
+}
+
+.menu-desktop li{
+    display: inline-block;
+    padding: 0 25px;
+    position: relative;
+    top: 8px;
+}
+
+.menu-desktop li a{
+    text-decoration: none;
+
+}
+
+#divBusca {
+    position: absolute;
+    width: 765px;
+    height: 54px;
+    left: 338px;
+    top: 79px;
+    background: #FFFFFF;
+    border: 1px solid #DEE0E3;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+#texto{   
+    position: absolute;
+    width: 159px;
+    height: 21px;
+    left: 10px;
+    top: 15px;
+    border: none;
+}
+
+.botao {
+    height: 18px;
+    width: 18px;
+    top: 97px;
+    border-radius: 0px;
+
+}

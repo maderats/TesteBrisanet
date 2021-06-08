@@ -1,0 +1,136 @@
+
+
+html.body{
+    height: 100%;
+}
+
+.clear{
+    clear: both;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+header {
+    width: 100%;
+    position: absolute;
+    height: 50px;
+    left: 0px;
+    top: 0px;
+    background-color: #FFCB05;
+}
+
+.logo {
+    position: absolute;
+width: 75px;
+height: 30px;
+left: 138px;
+top: 8px;
+}
+
+.menu-desktop{
+    display: flex;
+    justify-content: center; 
+    font-family: "Poppins"; 
+    margin-top: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+}
+
+.menu-desktop ul {
+    list-style-type: none;
+    top: auto;
+    
+}
+
+.menu-desktop li{
+    display: inline-block;
+    padding: 0 25px;
+    position: relative;
+    top: 8px;
+}
+
+.menu-desktop li a{
+    text-decoration: none;
+
+}
+
+.astronauta{
+    position: absolute;
+    width: 516px;
+    height: 344px;
+    left: 462px;
+    top: 75px;
+}
+
+.texto1 {
+    position: absolute;
+    width: 366px;
+    height: 36px;
+    left: 110px;
+    top: 413px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+}
+
+.texto2 {
+    position: absolute;
+    width: 366px;
+    height: 42px;
+    left: 80px;
+    top: 458px;
+    color: #7D7E80;
+    font-family: poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+
+}
+
+.botao{
+    height: 45px;
+    width: 233px;
+    left: 170px;
+    top: 539px;
+    border-radius: 8px;
+    position: absolute;
+    border: 1px solid #7D7E80;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-family: Poppins;
+    color: #7D7E80;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    display: center;
+    align-items: center;
+    text-align: center;
+}
+
+.modoescuro {
+    position: absolute;
+    width: 139px;
+    height: 31px;
+    left: -400px;
+    top: 655px;
+    border: 1px solid #4B4B4D;
+    box-sizing: border-box;
+    border-radius: 22px;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAPCAYAAADUFP50AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAADpSURBVHgBnVPBFYIwDG0L3BlBN2ADy40HPbiBOoE6ihvoBJzgcYMNZAMZgbvUmgg8xWeAZ05Jfn7a9KecEaaUio1hEtzSmMclTdPzJ84pYhAEC8uyr+C6XWml9d3PsqzCSFBELIATT++MgUZOjg1HiS9QsGKYQbIVj161tyhS5jsHM+8E+8M4F5tRYhiGHgF5Yrwz3xOQOyXHjYBrQZOcnNFW2lJKtyiKuiUoCRKsOGcHeDuXYuEm8W611my2mSpJkqVomuaIwVyS1tpHT+BqtcEU2ZRY1+/q4FVBty2KCy7qhzPi7D9/xxO3h2L4wBuv6wAAAABJRU5ErkJggg==);
+    background-repeat: no-repeat;
+   background-origin: border-box;
+    
+}
